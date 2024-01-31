@@ -4,8 +4,8 @@ import { FacebookLoginButton, GoogleLoginButton } from 'react-social-login-butto
 function App() {
   return (
     <div>
-    {/* <LoginSocialFacebook
-    appId='1449556775653189'
+    <LoginSocialFacebook
+    appId='your-app-id'
     onResolve={(response)=>{
       console.log(response)
     }}
@@ -15,11 +15,11 @@ function App() {
     >
       
     <FacebookLoginButton/>
-    </LoginSocialFacebook> */}
+    </LoginSocialFacebook>
 
 
     <LoginSocialGoogle
-    client_id='40197534599-tcm80dtbb8stoe8426khvj8gdd251ktk.apps.googleusercontent.com'
+    client_id='your-client-id'
     redirect_uri='https://accounts.google.com/o/oauth2/v2/auth'
     onResolve={(response)=>{
       console.log(response)
